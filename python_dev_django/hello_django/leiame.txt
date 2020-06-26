@@ -1,0 +1,21 @@
+# Python - Django
+IDE Visual Studio Code
+
+Documentação de comandos para criação de ambiente virtual, download do django execução do django.
+
+PS C:\Users\Aluno\Desktop\Python> python -V
+Python 3.8.3
+PS C:\Users\Aluno\Desktop\Python> python -m venv dev_django
+PS C:\Users\Aluno\Desktop\Python> python -m venv python_dev_django
+PS C:\Users\Aluno\Desktop\Python> cd .\python_dev_django
+PS C:\Users\Aluno\Desktop\Python\python_dev_django> .\Scripts\activate
+(python_dev_django) PS C:\Users\Aluno\Desktop\Python\python_dev_django> pip install django
+(python_dev_django) PS C:\Users\Aluno\Desktop\Python\python_dev_django>
+PS C:\Users\Aluno\Desktop\Python\python_dev_django> .\Scripts\activate
+(python_dev_django) PS C:\Users\Aluno\Desktop\Python\python_dev_django> pip freeze
+asgiref==3.2.10
+Django==3.0.7
+pytz==2020.1
+sqlparse==0.3.1
+(python_dev_django) PS C:\Users\Aluno\Desktop\Python\python_dev_django> django-admin startproject hello_django
+(python_dev_django) C:\Users\Aluno\Desktop\Python\python_dev_django\hello_django>manage.py runserver
