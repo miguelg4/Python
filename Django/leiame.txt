@@ -1,0 +1,14 @@
+
+PS C:\Users\dev\Documents\Python> python -m venv Django
+PS C:\Users\dev\Documents\Python> python -m venv Django
+PS C:\Users\dev\Documents\Python> cd .\Django\
+PS C:\Users\dev\Documents\Python\Django> dir
+PS C:\Users\dev\Documents\Python\Django> .\Scripts\activate
+(Django) PS C:\Users\dev\Documents\Python\Django> pip install django
+(Django) PS C:\Users\dev\Documents\Python\Django> pip freeze
+asgiref==3.2.10
+pytz==2020.1
+sqlparse==0.3.1
+(Django) PS C:\Users\dev\Documents\Python\Django> django-admin startproject hello_world_django   
+(Django) PS C:\Users\dev\Documents\Python\Django> cd .\hello_world_django\
+(Django) PS C:\Users\dev\Documents\Python\Django\hello_world_django> .\manage.py runserver 
